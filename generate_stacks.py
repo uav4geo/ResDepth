@@ -19,7 +19,7 @@ default_photo_dem_path = "odm_dem/dsm.tif"
 default_outdir = "resdepth"
 default_dt_dem_path = os.path.join(default_outdir, "ground_truth.tif")
 
-parser = argparse.ArgumentParser(description='Generate ResDepth Training Patches')
+parser = argparse.ArgumentParser(description='Generate ResDepth Training Stacked Images')
 parser.add_argument('dataset',
                 type=str,
                 help='Path to ODM dataset')
